@@ -47,6 +47,8 @@ exports.allWorkouts=async(req,res)=>{
   
 }
 
+//for edit workout
+
 exports.editWorkout=async(req,res)=>{
   const {title,category,description,image}=req.body
   const userId=req.payload
